@@ -10,11 +10,63 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  padding: 20px;
 }
 
 #search-box {
   font: inherit;
   padding: 8px;
-  max-width: 320px;
-  margin-bottom: 16px;
+  width: 400px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.country-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+}
+
+.list-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.item-name {
+  margin-left: 10px;
+}
+
+.country-info {
+  font-size: 24px;
+}
+
+.card-name {
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.card-name img {
+  margin-right: 10px;
+}
+
+.card-property {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.card-property:last-child {
+  margin-bottom: 0;
+}
+
+.property-name {
+  font-weight: 700;
 }
